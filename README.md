@@ -151,10 +151,11 @@ public class Product {
     private String gender;
 }
 ```
+
 ### Repository
 > The repository folder in a Spring Boot project is used to store classes that handle data storage and retrieval, and is an essential component of building robust and scalable applications.
 
-###Controller
+### Controller
  - Class OrderSneakerController
 
  > getCart: This is a Java method that retrieves a shopping cart or order based on the given status by calling the getSneakerByStatus method of the file OrderService.java.
@@ -267,7 +268,7 @@ public class CustomErrorController implements ErrorController {
 }
 ```
 
-###Service
+### Service
 - Class OrderServiceImpl
 
 >addNewCart(HashMap<String, String> params): This is a Java method that takes a HashMap object data as an argument and returns another HashMap object res. The method adds a new order to a cart system, and the input parameters (data) specify the details of the new order. The method first checks if the required fields (sneakerId, quantity, and size) are present in the input data HashMap. If any of these fields are missing, the method returns an error message in the res HashMap and exits. If all required fields are present, the method creates a new OrderSneaker object and initializes its price and status attributes. It then saves this new OrderSneaker object using a repository (orderSneakerRepository). Next, the method creates a new OrderSneakerDetail object and initializes its product, size, quantity, and orderSneaker attributes. The product attribute is set by looking up the Product object corresponding to the sneakerId field in the data HashMap, using a repository (productRepository). The method then saves this new OrderSneakerDetail object using another repository (orderSneakerDetailRepository). Finally, the method adds a success message to the res HashMap and returns it.
