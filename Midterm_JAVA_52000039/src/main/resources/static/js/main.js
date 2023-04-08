@@ -219,20 +219,13 @@ function checkCartExist() {
             document.getElementById('cart-quantity').innerHTML = cart.count
             const cartInfo = cart.data
             console.log(cartInfo.length)
-            if(cartInfo.length == 0 && cart.length == 0)
+            if(cartInfo.length == 0)
             {
                 window.localStorage.setItem('cartId','0')
             }
             else {
                 showSneakerInCart(cart)
                 window.localStorage.setItem('cartId',cartInfo[0].id)
-
-                // if (cartInfo[0].orderSneakerDetails.length == 0 )
-                // {
-                //     window.localStorage.setItem('cartId','0')
-                // }
-                // else {
-                // }
             }
 
         })
