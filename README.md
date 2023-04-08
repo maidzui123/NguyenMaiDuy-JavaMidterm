@@ -1,4 +1,11 @@
 <a name="readme-top"></a>
+<div align="center">
+  <a href="https://github.com/maidzui123/NguyenMaiDuy-JavaMidterm">
+    <img src="logo.png" alt="Logo" width="200" height="200">
+  </a>
+</div>
+<h3 align="center">ZuySneaker</h3>
+
 # ZuySneaker
 ZuySneaker is a convenient and easy-to-use website that allows users to choose and buy sneaker.
 
@@ -510,23 +517,23 @@ public class ProductServiceImpl implements ProductService{
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Website Screenshots
-1. ### Homepage: contain header, nav, slider, filter bar, all sneaker. User can search, filter, get sneaker information, cart and history purchase.
+### 1. Homepage: contain header, nav, slider, filter bar, all sneaker. User can search, filter, get sneaker information, cart and history purchase.
 
 ![Homepage](https://user-images.githubusercontent.com/90997428/230706207-6b06b61c-e23a-462e-a836-8561bf9be248.png)
 
-2. ### AllSneakersInfoPage: contain all sneakers information.
+### 2. AllSneakersInfoPage: contain all sneakers information.
 
 ![AllSneakers](https://user-images.githubusercontent.com/90997428/230706266-53e82d1e-80e6-4d96-b09f-ab013b38de15.png)
 
-3. ### Cart: contain sneaker which user choose to order.
+### 3. Cart: contain sneaker which user choose to order.
 
 ![Cart](https://user-images.githubusercontent.com/90997428/230706306-1413f69d-183d-4e1c-8ccc-60c7417bddde.png)
 
-4. ### PurchasePage: contain name, quantity, price, total of all sneakers which user order and button "Buy"
+### 4. PurchasePage: contain name, quantity, price, total of all sneakers which user order and button "Buy"
 
 ![Purchase](https://user-images.githubusercontent.com/90997428/230706354-3ab1bad3-f1ec-454e-ab2f-3cefcbdcb6f7.png)
 
-5/ ### History: contain all bill, click bill will show all sneakers were purchased by user.
+### 5. History: contain all bill, click bill will show all sneakers were purchased by user.
 
 ![History_1](https://user-images.githubusercontent.com/90997428/230706429-f666b05c-8405-4f10-871b-ed151c7bf714.png)
 
@@ -536,3 +543,41 @@ public class ProductServiceImpl implements ProductService{
 
 ## Postman Screenshots
 
+### 1. addNewCart: add new sneaker to available cart. Return the message if success.
+
+![AddNewCart](https://user-images.githubusercontent.com/90997428/230707895-d1ddb233-f3bf-42d9-8c6f-10ca46335ce4.png)
+
+### 2. addOldCart: add sneaker to available cart. Return cart data if success.
+
+![AddOldCart](https://user-images.githubusercontent.com/90997428/230708029-645834d2-3d84-4243-9d0d-8dab99ebf5e4.png)
+
+### 3. getOrder: get sneaker list depending on status (status = 0 is cart) (status = 1 is history purchase). Return list of sneakers.
+
+![GetOrder](https://user-images.githubusercontent.com/90997428/230708494-4f22a59e-0aef-4d99-b855-e46c75ee5fd1.png)
+
+![GetHistory](https://user-images.githubusercontent.com/90997428/230710023-03bcd27f-1df6-48e6-b358-f058a35386d0.png)
+
+### 4. getProduct: get sneaker by id. Return sneaker.
+
+![GetProduct](https://user-images.githubusercontent.com/90997428/230708854-2bba8d7c-b4c7-4477-8b6f-c22ea566a576.png)
+
+### 5. getSearch: search sneaker by input name. Return list sneakers.
+
+![GetSearchSneaker](https://user-images.githubusercontent.com/90997428/230709156-be44c6eb-fc45-4bde-bba8-a64d74f58965.png)
+
+### 6. filterSneaker: filter sneaker by price, brand, gender and sort price (desc & asc). Return sneaker list after filtering.
+
+![FilterSneaker](https://user-images.githubusercontent.com/90997428/230709369-6a33d9aa-19ac-474d-a364-a12110a00b8d.png)
+
+### 7. deleteSneaker: delete sneaker which user choose in cart. Return list sneaker stay in cart.
+
+![DeleteSneaker](https://user-images.githubusercontent.com/90997428/230709545-1c92fe48-0c24-4c26-afa3-7f854b48d0b7.png)
+
+### 8. purchaseSneaker: change status of cart to 1. Return success or error message
+
+![PurchaseSneaker](https://user-images.githubusercontent.com/90997428/230709857-f554b38d-a3dd-4f3f-aa75-cd1c81074a2e.png)
+
+
+<div align="center">
+  <h1>THANKS FOR READING <3</1>
+</div>
