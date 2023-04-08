@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # ZuySneaker
 ZuySneaker is a convenient and easy-to-use website that allows users to choose and buy sneaker.
 
@@ -8,8 +9,8 @@ ZuySneaker is a convenient and easy-to-use website that allows users to choose a
     <li><a href="#Built-with">What I Use To Build This Website?</a></li>
     <li><a href="#Code-Explanation">Code Java & Explanation</a></li>
     <li><a href="#Deployment">How To Deploy?</a></li>
-    <li><a href="#Website-screenshots">Website screenshots</a></li>
-    <li><a href="#Postman-snapshots">Postman snapshots</a></li>
+    <li><a href="#Website-screenshots">Website Screenshots</a></li>
+    <li><a href="#Postman-snapshots">Postman Screenshots</a></li>
   </ol>
 </details>
  
@@ -20,6 +21,8 @@ ZuySneaker is a convenient and easy-to-use website that allows users to choose a
 - To create dynamic web pages, I have used Thymeleaf, a Java-based template engine that integrates well with Spring.
 - For data persistence and management, I have used the Java Persistence API (JPA), which is a framework for object-relational mapping. JPA allows us to map Java objects to relational database tables and vice versa, making it easier to work with data in a database. I have also used the MySQL Connector/J JDBC driver to connect to MySQL databases.
 - Finally, I have secured our application using Spring Security, a powerful and highly customizable authentication and access-control framework for securing Spring-based Java web applications. With Spring Security, I have configured security rules, created custom authentication mechanisms, and integrated with other security providers to protect against common attacks like cross-site scripting and request forgery.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Code Java & Explanation
 ### Entity
@@ -154,6 +157,8 @@ public class Product {
 
 ### Repository
 > The repository folder in a Spring Boot project is used to store classes that handle data storage and retrieval, and is an essential component of building robust and scalable applications.
+>
+>Include 3 interface: OrderSneakerDetailRepository, OrderSneakerRepository, ProductRepository
 
 ### Controller
  - Class OrderSneakerController
@@ -487,6 +492,8 @@ public class ProductServiceImpl implements ProductService{
 }
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## How To Deploy?
 
 1. Make sure you have Java Runtime 17+ installed on your machine. If not, download and install the latest version of Java from the official website.
@@ -500,5 +507,32 @@ public class ProductServiceImpl implements ProductService{
 9. Run the project through the main class in your Java IDE.
 10. Finally, import the data.sql file into the newly created MySQL database for the project.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Website Screenshots
-## Postman Snapshots
+1. ### Homepage: contain header, nav, slider, filter bar, all sneaker. User can search, filter, get sneaker information, cart and history purchase.
+
+![Homepage](https://user-images.githubusercontent.com/90997428/230706207-6b06b61c-e23a-462e-a836-8561bf9be248.png)
+
+2. ### AllSneakersInfoPage: contain all sneakers information.
+
+![AllSneakers](https://user-images.githubusercontent.com/90997428/230706266-53e82d1e-80e6-4d96-b09f-ab013b38de15.png)
+
+3. ### Cart: contain sneaker which user choose to order.
+
+![Cart](https://user-images.githubusercontent.com/90997428/230706306-1413f69d-183d-4e1c-8ccc-60c7417bddde.png)
+
+4. ### PurchasePage: contain name, quantity, price, total of all sneakers which user order and button "Buy"
+
+![Purchase](https://user-images.githubusercontent.com/90997428/230706354-3ab1bad3-f1ec-454e-ab2f-3cefcbdcb6f7.png)
+
+5/ ### History: contain all bill, click bill will show all sneakers were purchased by user.
+
+![History_1](https://user-images.githubusercontent.com/90997428/230706429-f666b05c-8405-4f10-871b-ed151c7bf714.png)
+
+![History_2](https://user-images.githubusercontent.com/90997428/230706462-6c1de8f3-c858-4ba7-8975-fd37a294a36c.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Postman Screenshots
+
