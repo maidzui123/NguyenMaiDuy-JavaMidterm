@@ -4,7 +4,7 @@
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 </div>
-<h3 align="center">ZuySneaker</h3>
+<h3 align="center">ZuySneaker Web Application</h3>
 
 # ZuySneaker
 ZuySneaker is a convenient and easy-to-use website that allows users to choose and buy sneaker.
@@ -16,6 +16,7 @@ ZuySneaker is a convenient and easy-to-use website that allows users to choose a
     <li><a href="#Built-with">What I Use To Build This Website?</a></li>
     <li><a href="#Code-Explanation">Code Java & Explanation</a></li>
     <li><a href="#Deployment">How To Deploy?</a></li>
+    <li><a href="#Erd">Entity Relationship Diagram</a></li>
     <li><a href="#Website-screenshots">Website Screenshots</a></li>
     <li><a href="#Postman-snapshots">Postman Screenshots</a></li>
   </ol>
@@ -29,7 +30,7 @@ ZuySneaker is a convenient and easy-to-use website that allows users to choose a
 - For data persistence and management, I have used the Java Persistence API (JPA), which is a framework for object-relational mapping. JPA allows us to map Java objects to relational database tables and vice versa, making it easier to work with data in a database. I have also used the MySQL Connector/J JDBC driver to connect to MySQL databases.
 - Finally, I have secured our application using Spring Security, a powerful and highly customizable authentication and access-control framework for securing Spring-based Java web applications. With Spring Security, I have configured security rules, created custom authentication mechanisms, and integrated with other security providers to protect against common attacks like cross-site scripting and request forgery.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 ## Code Java & Explanation
 ### Entity
@@ -499,7 +500,7 @@ public class ProductServiceImpl implements ProductService{
 }
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 ## How To Deploy?
 
@@ -514,7 +515,10 @@ public class ProductServiceImpl implements ProductService{
 9. Run the project through the main class in your Java IDE.
 10. Finally, import the data.sql file into the newly created MySQL database for the project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
+## Entity Relationship Diagram
+
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 ## Website Screenshots
 ### 1. Homepage: contain header, nav, slider, filter bar, all sneaker. User can search, filter, get sneaker information, cart and history purchase.
@@ -539,7 +543,7 @@ public class ProductServiceImpl implements ProductService{
 
 ![History_2](https://user-images.githubusercontent.com/90997428/230706462-6c1de8f3-c858-4ba7-8975-fd37a294a36c.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 ## Postman Screenshots
 
